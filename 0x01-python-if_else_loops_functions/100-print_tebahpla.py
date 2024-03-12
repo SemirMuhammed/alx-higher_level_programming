@@ -5,4 +5,4 @@ for i in range(25, -1, -1):
         num = 65
     else:
         num = 97
-    print(f"{chr(num + i)}", end="")
+    print("{}".format(chr(num + i)), end="")

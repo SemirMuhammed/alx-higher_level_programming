@@ -2,4 +2,4 @@
 
 for ASCII_code in range(97, 123):
     if format(ASCII_code, 'c') not in {'q', 'e'}:
-        print(f"{format(ASCII_code, 'c')}", end="")
+        print("{}".format(format(ASCII_code, 'c')), end="")
