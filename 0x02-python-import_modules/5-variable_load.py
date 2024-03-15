@@ -1,4 +1,5 @@
 #!/usr/bin/python3
-from varable_load_5 import a
+if __name__ == "__main__":
+    from varable_load_5 import a
 
-print(a)
+    print(a)
