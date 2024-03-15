@@ -3,4 +3,5 @@ if __name__ == "__main__":
     import hidden_4
 
     for name in hidden_4:
-        print(name)
+        if name[0] != '_':
+            print(name)
